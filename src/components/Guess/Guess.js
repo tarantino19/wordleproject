@@ -10,8 +10,6 @@ function Cell({ letter, status }) {
 function Guess({ value, index, answer }) {
 	const result = checkGuess(value, answer);
 
-	// console.log(result);
-
 	return (
 		<p className="guess">
 			{range(5).map((num) => (
