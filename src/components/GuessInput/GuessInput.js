@@ -28,6 +28,22 @@ function GuessInput({ handleSubmitGuess }) {
 					}}
 				/>
 			</form>
+			<button
+				style={{
+					color: "white",
+					fontWeight: "bolder",
+					backgroundColor: "#4CAF50",
+					display: "inline-block",
+					fontSize: "16px",
+					paddingTop: "10px",
+					paddingBottom: "10px",
+					padding: "15px 32px",
+					textAlign: "center",
+				}}
+				onClick={() => window.location.reload()}
+			>
+				RESTART GAME
+			</button>
 		</>
 	);
 }
